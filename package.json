@@ -1,0 +1,14 @@
+{
+  "name": "flight-request-app",
+  "version": "1.0.0",
+  "description": "Interactive mapping application for handling flight requests",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "leaflet": "^1.7.1"
+  }
+}
