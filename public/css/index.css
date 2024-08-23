@@ -1,0 +1,69 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Map Container Styles */
+
+#map-container {
+  width: 100%;
+  height: 80vh;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Interactive Elements Styles */
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+/* Leaflet Styles */
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ddd;
+}
+
+.leaflet-popup-content {
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.leaflet-popup-content a {
+  text-decoration: underline;
+  color: #337ab7;
+}
+
+.leaflet-popup-content a:hover {
+  color: #23527c;
+}
